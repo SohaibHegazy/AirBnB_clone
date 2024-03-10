@@ -135,7 +135,6 @@ class TestFileStorage(unittest.TestCase):
             self.assertIn("Amenity" + "." + amenity.id, obj)
             self.assertIn("Review" + "." + review.id, obj)
 
-
     def test_reload_more_arg(self):
         with self.assertRaises(TypeError):
             models.storage.reload(User(), 1)

@@ -24,5 +24,6 @@ class TestPlace(unittest.TestCase):
         self.assertIsInstance(place.longitude, float)
         self.assertIsInstance(place.place_ids, str)
 
+
 if __name__ == "__main__":
     unittest.main()

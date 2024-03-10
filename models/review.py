@@ -12,7 +12,7 @@ class Review(BaseModel):
     it has Three Public class attributes:
     place_id => empty string: it will be the Place.id
     user_id => empty string: it will be the User.id
-    text => 
+    text =>
     '''
     place_id = ""
     user_id = ""
